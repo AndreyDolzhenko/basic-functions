@@ -1,3 +1,8 @@
+/////// index.js
+
+const backupRoutes = require("./routes/backup.routes");
+app.use("/api/backup", backupRoutes);
+
 /////// backup.routes.js
 const express = require('express');
 const router = express.Router();
